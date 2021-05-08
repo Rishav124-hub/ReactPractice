@@ -12,7 +12,7 @@
 # Component
   Components Describe the part of the user Interface
   They are re-usable and can be used in other Component.
-  Component Type
+  * Component Type
     1. StateLess Functional Component
     2. Stateful Class Component
 

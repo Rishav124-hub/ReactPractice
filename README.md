@@ -1,7 +1,7 @@
 # ReactPractice LearnReact
 
-*React is library not a frameWork;
-*It is OpenSource Libary for building User InterFace
+* React is library not a frameWork;
+* It is OpenSource Libary for building User InterFace
 
 <!-- Cannot create a project named "helloWorld" because of npm naming restrictions.
 
@@ -31,5 +31,10 @@
   4. Provide Lifecycle hooks
   5. Stateful/Smart/Container
 
-# By using JSX we can make code easy with respect to without using the JSX
+* By using JSX we can make code easy with respect to without using the JSX
 
+* Today I Learn About:
+  1. SetState-(Counter.js)
+  2. State- (Message.js)
+  3. Props- (Greet.js,Welcome.js)
+  * I learn many thing like creating Function Classes etc

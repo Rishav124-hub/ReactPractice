@@ -5,15 +5,19 @@ import './App.css';
 import {Greet1,Greet} from './Greet'
 import Welcome from './Welcome'
 import Hello from './Hello'
+import Message from './Message'
+import Counter from './Counter'
 
 class App extends Component{
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          {/* <p>
+          <Counter></Counter>
+          <Message></Message>
+          <p>
             Hello World
-          </p> */}
+          </p>
           <Welcome name="Abhishek" lastName="Kumar"></Welcome>
           <Welcome name="Shubham" lastName="Burman">
             <p>How Are you. Add This is children props. Using Class</p>
@@ -24,8 +28,8 @@ class App extends Component{
           </Greet>
           <Greet name="Shubham" lastName="Burman"></Greet>
           <Greet name="Sanket" lastName="Sinha"></Greet>
-          {/* <Greet1/> */}
-          {/* <Hello/> */}
+          <Greet1/>
+          <Hello/>
         </header>
       </div>
     );

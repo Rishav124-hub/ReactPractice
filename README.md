@@ -38,3 +38,6 @@
   2. State- (Message.js)
   3. Props- (Greet.js,Welcome.js)
   * I learn many thing like creating Function Classes etc
+
+* rfce for creating a basic function structure
+* rce for creating abasic class component

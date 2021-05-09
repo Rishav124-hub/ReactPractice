@@ -9,9 +9,10 @@ import React from 'react';
 // Using With JSX
 export const Greet = (props)=>{
     console.log(props)
+    const {name}=props
     return (
         <div>
-            <h3>Hello {props.name} {props.lastName}</h3>
+            <h3>Hello {name} {props.lastName}</h3>
             {props.children}
         </div>
     )

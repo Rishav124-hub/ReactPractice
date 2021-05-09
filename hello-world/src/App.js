@@ -7,12 +7,16 @@ import Welcome from './Welcome'
 import Hello from './Hello'
 import Message from './Message'
 import Counter from './Counter'
+import FunctionClick from './FunctionClick';
+import ClassClick from './ClassClick';
 
 class App extends Component{
   render() {
     return (
       <div className="App">
         <header className="App-header">
+          <ClassClick></ClassClick>
+          <FunctionClick></FunctionClick>
           <Counter></Counter>
           <Message></Message>
           <p>

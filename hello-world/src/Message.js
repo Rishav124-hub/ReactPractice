@@ -15,6 +15,7 @@ class Welcome extends Component{
             button: 'Click'
 
         })
+        console.log(this)
     }
     changeMessageAgain(){
         this.setState({

@@ -9,12 +9,20 @@ import Message from './Message'
 import Counter from './Counter'
 import FunctionClick from './FunctionClick';
 import ClassClick from './ClassClick';
+import EventBind from './EventBind';
+import ParentComponent from './ParentComponent';
+import UserGreeting from './UserGreeting';
+import NameList from './NameList';
 
 class App extends Component{
   render() {
     return (
       <div className="App">
         <header className="App-header">
+          <NameList></NameList>
+          <UserGreeting></UserGreeting>
+          <ParentComponent></ParentComponent>
+          <EventBind></EventBind>
           <ClassClick></ClassClick>
           <FunctionClick></FunctionClick>
           <Counter></Counter>

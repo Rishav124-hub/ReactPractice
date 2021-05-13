@@ -34,17 +34,17 @@ class Form extends Component {
         event.preventDefault()
     }
     render() {
-        
+        const {UserName,comment}=this.state
         return (
             <div>
                 <form onSubmit={this.submit}>
                     <div>
                         <label>UserName : </label>
-                        <input type="text" value={this.state.UserName} onChange={this.userNameHandler}/>
+                        <input type="text" value={UserName} onChange={this.userNameHandler}/>
                     </div>
                     <div>
                         <label>Comment : </label>
-                        <textarea type="text" value={this.state.comment} onChange={this.commentHandler}/>
+                        <textarea type="text" value={comment} onChange={this.commentHandler}/>
                     </div>
                     <div>
                         <label>Topic : </label>

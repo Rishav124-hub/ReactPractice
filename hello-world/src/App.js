@@ -13,12 +13,20 @@ import EventBind from './EventBind';
 import ParentComponent from './ParentComponent';
 import UserGreeting from './UserGreeting';
 import NameList from './NameList';
+import StyleSheet from './StyleSheet';
+import Inline from './Inline';
+import './AppStyle.css';
+import style from './AppStyle.module.css'
 
 class App extends Component{
   render() {
     return (
       <div className="App">
         <header className="App-header">
+          <p className="error">Error</p>
+          <p className={style.success}>Success</p>
+          <Inline></Inline>
+          <StyleSheet primary={true}></StyleSheet>
           <NameList></NameList>
           <UserGreeting></UserGreeting>
           <ParentComponent></ParentComponent>

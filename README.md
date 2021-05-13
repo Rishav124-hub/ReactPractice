@@ -41,3 +41,17 @@
 
 * rfce for creating a basic function structure
 * rce for creating abasic class component
+
+* Event binding using 4 ways (EventBind.js)
+  1. using binding property in render 
+  2. arrow function in render
+  3. binding in constructor
+  4. arrow function in class
+
+* Today I learn about If else and map function
+
+* today I learn about css 
+ 1. If we use file name like app.css 
+   1. we can use this css file any where without importing this in other file
+  2. but if we use file name like app.module.css
+   1. then we can only use this css file in which i have imported

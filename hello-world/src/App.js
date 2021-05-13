@@ -17,12 +17,14 @@ import StyleSheet from './StyleSheet';
 import Inline from './Inline';
 import './AppStyle.css';
 import style from './AppStyle.module.css'
+import Form from './Form';
 
 class App extends Component{
   render() {
     return (
       <div className="App">
         <header className="App-header">
+          <Form></Form>
           <p className="error">Error</p>
           <p className={style.success}>Success</p>
           <Inline></Inline>

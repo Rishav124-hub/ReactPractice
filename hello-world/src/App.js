@@ -18,12 +18,14 @@ import Inline from './Inline';
 import './AppStyle.css';
 import style from './AppStyle.module.css'
 import Form from './Form';
+import LifeCycleA from './LifeCycleA';
 
 class App extends Component{
   render() {
     return (
       <div className="App">
         <header className="App-header">
+          <LifeCycleA></LifeCycleA>
           <Form></Form>
           <p className="error">Error</p>
           <p className={style.success}>Success</p>

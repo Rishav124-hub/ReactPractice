@@ -55,3 +55,14 @@
    1. we can use this css file any where without importing this in other file
   2. but if we use file name like app.module.css
    1. then we can only use this css file in which i have imported
+
+* Today I learned order of Component Mounting LifeCycle Method
+  1. constructor
+  2. getDerivedStateFromProps
+  3. render
+  4. componentDidMount
+* Today I learned order of Component Udate LifeCycle Method
+  1. getDerivedStateFromProps
+  2. shouldComponentUpdate
+  3. render
+  4. getSnapshotBeforeUpdate

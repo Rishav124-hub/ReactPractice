@@ -66,3 +66,12 @@
   2. shouldComponentUpdate
   3. render
   4. getSnapshotBeforeUpdate
+
+* React fragment tag revove extra container tag and merge it to main tag
+  * And in this we can also use key attribute
+  * and we can also use <> tag for work as a react fragment tag but in this we can't use key attributes
+
+*  PureComponent implement  the shouldComponentUpdate lifeCycle method performing a shallow a comparison on the props and state of component
+  * Pure component not re-render Unnessecerly
+  * it render only when there is change in prevState and currentState 
+  * It is also good  idea to ensure that all the children component are also pure to avoid unexpected  behaviour

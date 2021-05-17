@@ -19,12 +19,15 @@ import './AppStyle.css';
 import style from './AppStyle.module.css'
 import Form from './Form';
 import LifeCycleA from './LifeCycleA';
+import FragmentDemo from './FragmentDemo';
+import ParentComp from './ParentComp';
 
 class App extends Component{
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+          <ParentComp></ParentComp>
+          <FragmentDemo></FragmentDemo>
           <LifeCycleA></LifeCycleA>
           <Form></Form>
           <p className="error">Error</p>
@@ -54,7 +57,6 @@ class App extends Component{
           <Greet name="Sanket" lastName="Sinha"></Greet>
           <Greet1/>
           <Hello/>
-        </header>
       </div>
     );
   }

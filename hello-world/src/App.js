@@ -21,12 +21,32 @@ import Form from './Form';
 import LifeCycleA from './LifeCycleA';
 import FragmentDemo from './FragmentDemo';
 import ParentComp from './ParentComp';
+import RefDemo from './RefDemo';
+import FocusInput from './FocusInput';
+import Input from './Input';
+import FRParentInput from './FRParentInput';
+import PortalDemo from './PortalDemo';
+import Hero from './Hero';
+import ErrorBoundary from './ErrorBoundary';
 
 class App extends Component{
   render() {
     return (
       <div className="App">
-          <ParentComp></ParentComp>
+        <ErrorBoundary>
+          <Hero heroName="BatMan"></Hero>
+        </ErrorBoundary>  
+        <ErrorBoundary>
+          <Hero heroName="SuperMan"></Hero>
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <Hero heroName="Joker"></Hero>
+        </ErrorBoundary>
+        <PortalDemo></PortalDemo>
+        <FRParentInput></FRParentInput>
+        <FocusInput></FocusInput>
+          <RefDemo></RefDemo>
+          {/* <ParentComp></ParentComp> */}
           <FragmentDemo></FragmentDemo>
           <LifeCycleA></LifeCycleA>
           <Form></Form>

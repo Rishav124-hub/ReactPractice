@@ -78,3 +78,10 @@
 
 * PureComponent is same as MemoCOmponent 
   * Memo work with function ANd pure works with class
+
+* Today I learn about Input Ref and call Back Ref.
+  * I have used this in various way
+  * I have also use the ForwardRef in function Component
+* And also Learn about portal How to use ReactDom CreatePortal
+* And also learn about error Boundary
+  * If the error is in one part then that part is not visible only and remaing is visible

@@ -11,7 +11,7 @@ class EventBind extends Component {
         this.state = {
              message:"Hello"
         }
-        // this.EventHandler=this.EventHandler.bind(this)
+        //2. this.EventHandler=this.EventHandler.bind(this)
     }
     // EventHandler(){
     //     this.setState({
@@ -29,8 +29,8 @@ class EventBind extends Component {
         return (
             <div>
                 <h1>{this.state.message}</h1>
-                {/* <button onClick={this.EventHandler.bind(this)}>EventHandler</button> */}
-                {/* <button onClick={()=>this.EventHandler()}>EventHandler</button> */}
+                {/*1. <button onClick={this.EventHandler.bind(this)}>EventHandler</button> */}
+                {/*3. <button onClick={()=>this.EventHandler()}>EventHandler</button> */}
                 <button onClick={this.EventHandler}>EventHandler</button>
             </div>
         )

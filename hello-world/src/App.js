@@ -42,21 +42,21 @@ class App extends Component{
           <FunctionClick></FunctionClick>
           <Counter></Counter>
           <Message></Message>
-          <p>
-            Hello World
-          </p>
-          <Welcome name="Abhishek" lastName="Kumar"></Welcome>
-          <Welcome name="Shubham" lastName="Burman">
-            <p>How Are you. Add This is children props. Using Class</p>
-          </Welcome>
-          <Welcome name="Sanket" lastName="Sinha"></Welcome>
+          <Hello/>
+          <Greet1/>
           <Greet name="Abhishek" lastName="Kumar">
             <p>How Are you. And This is children props. Using Function </p>
           </Greet>
           <Greet name="Shubham" lastName="Burman"></Greet>
           <Greet name="Sanket" lastName="Sinha"></Greet>
-          <Greet1/>
-          <Hello/>
+          <Welcome name="Abhishek" lastName="Kumar"></Welcome>
+          <Welcome name="Shubham" lastName="Burman">
+            <p>How Are you. Add This is children props. Using Class</p>
+          </Welcome>
+          <Welcome name="Sanket" lastName="Sinha"></Welcome>
+          <p>
+            Hello World
+          </p>    
       </div>
     );
   }

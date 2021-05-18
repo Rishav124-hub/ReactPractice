@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Name({names}) {
+function Name({nNames}) {
     return (
         <div>
-         <p>I am {names.name}. I am {names.age} years old. I know {names.skill}</p>
+         <p>I am {nNames.name}. I am {nNames.age} years old. I know {nNames.skill}</p>
         </div>
     )
 }

@@ -22,7 +22,7 @@ function NameList() {
             skill:"Vue"
         }
     ]
-    const nameList=names.map((name)=> <Name key={name.id} names={name}></Name>)
+    const nameList=names.map((n)=> <Name key={n.id} nNames={n}></Name>)
     return (
         <div>{nameList}</div>
     )

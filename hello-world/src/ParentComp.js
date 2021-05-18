@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import MemoComp from './MemoComp'
 import PureComp from './PureComp'
 import RegComp from './RegComp'
 
@@ -13,7 +14,7 @@ export class ParentComp extends Component {
     componentDidMount(){
         setInterval(()=>{
             this.setState({
-                message:'rish'
+                message:'rishav'
             })
         },2000)
     }
@@ -24,8 +25,9 @@ export class ParentComp extends Component {
             
             <div>
                 Parent Component
-                <PureComp name={this.state.message}></PureComp>
-                <RegComp name={this.state.message}></RegComp>
+                <MemoComp name={this.state.message}></MemoComp>
+                {/* <PureComp name={this.state.message}></PureComp>
+                <RegComp name={this.state.message}></RegComp> */}
             </div>
         )
     }

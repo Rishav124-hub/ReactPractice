@@ -75,3 +75,6 @@
   * Pure component not re-render Unnessecerly
   * it render only when there is change in prevState and currentState 
   * It is also good  idea to ensure that all the children component are also pure to avoid unexpected  behaviour
+
+* PureComponent is same as MemoCOmponent 
+  * Memo work with function ANd pure works with class
